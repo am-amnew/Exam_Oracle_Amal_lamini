@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="slyles.css" type="text/css" />
+    <link rel="stylesheet" href="CARD.css" type="text/css" />
+
+    <div class="container">
+
+
+    </div>
+    <img src="ohoh.png" width="300px" height="300px" />
+    <style>
+        .button {
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-size: 20px;
+            letter-spacing: 4px;
+            position: relative;
+            background-color: #6a066f;
+            border: none;
+            color: #fff;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition-duration: 0.4s;
+            overflow: hidden;
+            box-shadow: 0 5px 15px #193047;
+            border-radius: 4px;
+        }
+        
+        .button:hover {
+            background: #fff;
+            box-shadow: 0px 2px 10px 5px #1abc9c;
+            color: #000;
+        }
+        
+        .button:after {
+            content: "";
+            background: #000000;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px !important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+        }
+        
+        .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+        }
+        
+        .button:focus {
+            outline: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+
+        <span class="span1">Normal user</span><br>
+       
+    </h1>
+
+
+    <section>
+
+     
+
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="bus.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3><span>Bus</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>
+                            <a href="/bus">Details</a>
+
+
+
+                        </li>
+                        <li><a href="#demo-modal">More Details</a></li>
+                        <div id="demo-modal" class="modal">
+                            <div class="modal__content">
+                                <h1>Bus</h1>
+
+                                <p>
+                                    Si vous voulez connaître toutes les heures et tous les lieux de votre bus
+                                </p>
+
+
+
+                                <a href="#" class="modal__close">&times;</a>
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="53156.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3><span>Taxi</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>
+                            <a href="/taxi">Details</a>
+                        </li>
+                        <li><a href="#demo-modal2">More Details</a></li>
+                        <div id="demo-modal2" class="modal">
+                            <div class="modal__content">
+                                <h1>Taxi</h1>
+
+                                <p>
+                                    Si vous voulez aller n'importe où et que vous voulez un taxi ici, vous pouvez obtenir des numéros de taxi
+                                </p>
+
+
+
+                                <a href="#" class="modal__close">&times;</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="wwww.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3><span>Motorcycle</i></span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>
+                            <a href="/motor">Details</a>
+                        </li>
+
+                        <li><a href="#demo-modal3">More Details</a></li>
+                        <div id="demo-modal3" class="modal">
+                            <div class="modal__content">
+                                <h1>Motorcycle</h1>
+
+                                <p>
+                                    Si vous voulez connaître toutes les motos disponibles </p>
+
+
+
+                                <a href="#" class="modal__close">&times;</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="4669525.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3><span>Covoiturage</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>
+                            <a href="/covoiturage">Details</a>
+                        </li>
+
+                        <li><a href="#demo-modal4">More Details</a></li>
+                        <div id="demo-modal4" class="modal">
+                            <div class="modal__content">
+                                <h1>Covoiturage</h1>
+
+                                <p>
+                                    Obtenez l'aide dont vous avez besoin à un bon prix </p>
+
+
+
+                                <a href="#" class="modal__close">&times;</a>
+                            </div>
+                    </ul>
+                    </div>
+                </div>
+              
+    </section>
+</body>
